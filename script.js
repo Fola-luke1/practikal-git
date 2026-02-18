@@ -5,5 +5,4 @@ function Calculator() {
     console.log(`subtract = ${subtract(10, 2)}`);   
 }
 Calculator();
-
-module.exports = {subtract};
+module.exports = {subtract}; 
