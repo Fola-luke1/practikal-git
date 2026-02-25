@@ -13,16 +13,16 @@ const multiply = (a, b) => {
 
 const divide = (a, b) => {
     if (b === 0) {
-        return "Cannot divide by zero";
+        return "Cannot be divided by zero";
     }
     return a / b;
 };
 
 function Calculator() {
-    console.log(`add = ${add(10, 5)}`);
-    console.log(`subtract = ${subtract(10, 5)}`);
-    console.log(`multiply = ${multiply(10, 5)}`);
-    console.log(`divide = ${divide(10, 5)}`);
+    console.log(`add = ${add(10, 2)}`);
+    console.log(`subtract = ${subtract(10, 2)}`);
+    console.log(`multiply = ${multiply(10, 2)}`);
+    console.log(`divide = ${divide(10, 2)}`);
     
 }
 Calculator();
