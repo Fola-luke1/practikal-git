@@ -5,10 +5,4 @@ const divide = (a, b) => {
     }
     return a / b;
 };
-function Calculator() {
-   
-    console.log(`divide = ${divide(10, 2)}`);
-    
-}
-Calculator();
 module.exports = { divide };
