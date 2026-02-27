@@ -1,3 +1,4 @@
+
 const multiply = (a, b) => {
     return a * b * b;
 }
@@ -13,7 +14,7 @@ const subtract = (a, b) => {
 
 const divide = (a, b) => {
     if (b === 0) {
-        return "Cannot be divided by zero";
+        return "Cannot be divided by zero, or will be undefined";
     }
     return a / b;
 };
@@ -29,3 +30,6 @@ Calculator();
 
 module.exports = { multiply };
 module.exports = { add};
+
+module.exports = { divide };
+
