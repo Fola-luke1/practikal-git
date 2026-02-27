@@ -3,7 +3,7 @@ const multiply = (a, b) => {
 }
 
 const add = (a, b) => {
-    return a + b;
+    return a + b + a;
 }
 
 const subtract = (a, b) => {
@@ -28,3 +28,4 @@ function Calculator() {
 Calculator();
 
 module.exports = { multiply };
+module.exports = { add};
